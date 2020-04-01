@@ -1,57 +1,45 @@
-
-const users = [
-{
-    user:[{
-    "id":1,
-    "name":"test1",
-    "age" : "11",
-    "gender":"male",
-    "email" : "test1@gmail.com",
-    "phoneNo" : "9415346313"
-    },
-    {
-    "id" : 2,
-    "name":"test2",
-    "age" : "12",
-    "gender":"male",
-    "email" : "test2@gmail.com",
-    "phoneNo" : "9415346314"
-    },
-    {
-    "id":3,
-    "name":"test3",
-    "age" : "13",
-    "gender":"male",
-    "email" : "test3@gmail.com",
-    "phoneNo" : "9415346315"
-    },
-    {
-    "id":4,
-    "name":"test4",
-    "age" : "14",
-    "gender":"male",
-    "email" : "test4@gmail.com",
-    "phoneNo" : "9415346316"
-    },
-    {
-    "id":5,
-    "name":"test5",
-    "age" : "15",
-    "gender":"male",
-    "email" : "test5@gmail.com",
-    "phoneNo" : "9415346317"
-    },
-    {
-    "id":6,
-    "name":"test6",
-    "age" : "16",
-    "gender":"male",
-    "email" : "test6@gmail.com",
-    "phoneNo" : "9415346318"
-    }
-    ]
-    }
+const users = [{
+	"ok": true,
+	"members": [{
+			"id": "W012A3CDE",
+			"real_name": "Egon Spengler",
+			"tz": "America/Los_Angeles",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		},
+		{
+			"id": "W07QCRPA4",
+			"real_name": "Glinda Southgood",
+			"tz": "Asia/Kolkata",
+			"activity_periods": [{
+					"start_time": "Feb 1 2020  1:33PM",
+					"end_time": "Feb 1 2020 1:54PM"
+				},
+				{
+					"start_time": "Mar 1 2020  11:11AM",
+					"end_time": "Mar 1 2020 2:00PM"
+				},
+				{
+					"start_time": "Mar 16 2020  5:33PM",
+					"end_time": "Mar 16 2020 8:02PM"
+				}
+			]
+		}
+	]
+}
 ]
+
 
 export function getUsers() {
     return users;
