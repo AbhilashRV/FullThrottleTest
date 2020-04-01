@@ -18,7 +18,6 @@ function App() {
         <Switch>
         <Route path="/login" render={props=> <Login {...props}></Login>}></Route>
         <Route path="/" exact render={()=> <EmployeeList></EmployeeList>}></Route>
-        <Route path="/dashboard" render={()=> <Dashboard/>}></Route>
         <Route path="/not-found" render={()=><NotFound></NotFound>}></Route>
         <Redirect to="/not-found"></Redirect>
         </Switch>
