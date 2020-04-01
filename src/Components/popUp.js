@@ -26,7 +26,7 @@ class Popup extends React.Component{
 
        handleChange = date => {
         this.setState({
-          startDate: date,
+          startDate: date
           
         });
       };
@@ -57,27 +57,6 @@ return (
 </div>
 );  
 }
-
-
-/* 
-test(data){
-    console.log(data)     
-    if(data.map(a => a.real_name === this.props.tnames))
-    {
-       const a = data.map(a => a.activity_periods);
-     return  a.map(b=> <li key={b}>{b[0].start_time}</li>)
-    }
-}
-
-testSec(data){
-    console.log(data)     
-    if(data.map(a => a.real_name === this.props.tnames))
-    {
-       const a = data.map(a => a.activity_periods);
-     return  a.map(b=> <li key={b}>{b[0].end_time}</li>)
-    }
-}
- */  
 
 }
 
